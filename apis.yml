@@ -1,7 +1,26 @@
 aid: cloudpipes
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cloudpipes.png
 name: Cloudpipes
-description: Cloudpipes is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Cloudpipes was a Sofia (Bulgaria) and London-based iPaaS (integration
+  platform as a service) that provided a cloud-based integration and workflow-automation
+  platform for connecting SaaS applications and automating business processes without
+  code. Backed by 500 Global (500 Startups / 500 Istanbul), BrightCap Ventures and
+  LAUNCHub Ventures, the company was acquired by Vista-backed Quickbase (Quick Base)
+  in August 2019 and its standalone product and developer surface were subsequently
+  wound down. This API Evangelist profile is a historical/portfolio record: the
+  cloudpipes.com origin is offline (Cloudflare 522) and no live API, developer portal,
+  or machine-readable API artifacts remain available to harvest.'
 url: https://raw.githubusercontent.com/api-evangelist/cloudpipes/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +28,23 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: quickbase
+x-acquired-date: '2019-08-08'
+x-defunct: true
+x-note: cloudpipes.com origin offline (HTTP 522); no live API surface to enrich
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Integration
+- iPaaS
+- Automation
+- Workflow
+- SaaS
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +52,19 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/cloudpipes-domain-security.yml
 - type: Website
   url: https://cloudpipes.com
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/cloudpipes
+- type: LinkedIn
+  url: https://www.linkedin.com/company/cloudpipes
+- type: AcquiredBy
+  name: Quickbase
+  url: https://www.quickbase.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
