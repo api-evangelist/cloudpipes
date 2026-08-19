@@ -33,7 +33,7 @@ x-acquired-by: quickbase
 x-acquired-date: '2019-08-08'
 x-defunct: true
 x-note: cloudpipes.com origin offline (HTTP 522); no live API surface to enrich
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
